@@ -1,0 +1,25 @@
+{
+  "name": "rediscovering-node",
+  "version": "1.0.0",
+  "description": "A node practicing repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinmbuicode/Rediscovering-Node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinmbuicode/Rediscovering-Node/issues"
+  },
+  "homepage": "https://github.com/kevinmbuicode/Rediscovering-Node#readme",
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "uuid": "^9.0.0"
+  }
+}
