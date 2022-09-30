@@ -1,6 +1,6 @@
-const { add, subtract, multiply, divide} = require('./math.js')
+const express = require('express');
+const path = require('path');
+const PORT = process.env.PORT || 3500;
+const app = express();
 
-console.log(add(2, 3))
-console.log(subtract(2, 3))
-console.log(multiply(2, 3))
-console.log(divide(2, 3))
+app.listen(PORT, () => console.log(`Server is running on port ${PORT}`))
