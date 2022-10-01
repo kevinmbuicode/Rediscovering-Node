@@ -2,6 +2,14 @@ const express = require('express');
 const path = require('path');
 const PORT = process.env.PORT || 3500;
 const app = express();
+const logEvents = require('./middleware/logEvents');
+
+// custom middleware
+app.use((req, res, next) => {
+    logEvents(`${req.method}\t${req.header.origin}\t${req.url}`, 'reqLog.txt');
+    console.log(`${req.method} ${req.path}`);
+    next();
+})
 
 // built in middleware to handle query strings
 app.use(express.urlencoded({ extended: false }))

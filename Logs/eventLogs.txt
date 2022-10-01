@@ -9,3 +9,13 @@
 20221001	09:32:12	9d2d69d4-9e2f-422d-938f-31d67076a664	Log event emitted
 20221001	09:32:42	c59b2f77-4f5b-490f-aed3-7c317796d759	Log event emitted
 20221001	13:03:29	5e85b914-eb15-486f-9479-d856a72cdbfe	Log event emitted
+20221001	14:13:27	9ae35303-c6ad-4717-a030-d19bd5de0239	GET	undefined	/index.html
+20221001	14:13:28	ce7cb827-87f7-469b-bf34-a3e4b5417f12	GET	undefined	/css/style.css
+20221001	14:14:20	a4c875f3-fcfe-489c-bd00-bdc3b64f3d05	GET	undefined	/chain
+20221001	14:16:09	c5159d54-3dcc-49a1-befa-136e554ba89b	GET	undefined	/index.html
+20221001	14:16:09	65e69a25-ff38-41f9-b351-fa9b8bfc1751	GET	undefined	/css/style.css
+20221001	14:16:47	883e3eb9-9b71-4fbd-9de4-a8edd98f6674	GET	undefined	/new-page.html
+20221001	14:16:47	710b5020-acef-45c7-b33b-54335fafc97f	GET	undefined	/css/style.css
+20221001	14:16:47	422c1cbd-f644-49b9-a424-4669ec451eaf	GET	undefined	/img/img1.jpg
+20221001	14:17:13	22364e56-1ab1-41a3-88bc-b934f2afcb8e	GET	undefined	/index.html
+20221001	14:17:13	0059c19e-8d30-4ece-ba54-8bc3c494203f	GET	undefined	/css/style.css
