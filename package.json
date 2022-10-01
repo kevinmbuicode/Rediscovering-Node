@@ -2,10 +2,10 @@
   "name": "rediscovering-node",
   "version": "1.0.0",
   "description": "A node practicing repository",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
