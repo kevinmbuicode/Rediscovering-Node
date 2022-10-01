@@ -19,3 +19,44 @@
 20221001	14:16:47	422c1cbd-f644-49b9-a424-4669ec451eaf	GET	undefined	/img/img1.jpg
 20221001	14:17:13	22364e56-1ab1-41a3-88bc-b934f2afcb8e	GET	undefined	/index.html
 20221001	14:17:13	0059c19e-8d30-4ece-ba54-8bc3c494203f	GET	undefined	/css/style.css
+20221001	17:31:14	ed531852-48cf-465f-bd4d-5f3987e1a1bf	GET	undefined	/index.html
+20221001	17:31:14	9996c397-571a-4421-b65a-2b77b4fce30b	GET	undefined	/css/style.css
+20221001	17:35:02	426b75f6-ea23-4b93-aeac-54f875cae917	OPTIONS	undefined	/
+20221001	17:35:02	6b55b879-ebdf-4581-ba01-763721678aad	GET	undefined	/
+20221001	17:37:29	b7e0edc1-6985-46fa-ba1f-a3e147d7ce6c	OPTIONS	undefined	/
+20221001	17:37:29	0c5a37c3-b718-4004-a440-9ea9bb57dc98	GET	undefined	/
+20221001	17:38:59	5a1ba9bb-92f1-4dda-8a54-0ee688342e74	OPTIONS	undefined	/
+20221001	17:38:59	042cadb8-1b84-471c-967a-ae2fd2113a96	GET	undefined	/
+20221001	18:03:24	93446d74-af4f-4f00-8008-ec3723d175df	OPTIONS	undefined	/
+20221001	18:03:24	ce6fb59e-7206-45fc-a2d4-ce3fededd499	GET	undefined	/
+20221001	18:03:44	c5c8f149-10e1-49ee-8f9b-a35df1d33900	OPTIONS	undefined	/
+20221001	18:03:44	a2e313b3-447d-4a2e-855a-5b82b7ac818a	GET	undefined	/
+20221001	18:04:46	e31c60c0-39e2-47a1-af6c-e4378486ab51	OPTIONS	undefined	/
+20221001	18:04:46	e6dd1f34-70c2-4695-be50-a93778e82ba8	GET	undefined	/
+20221001	18:20:10	258437f3-9f8f-431a-b814-eb663e7c8bef	OPTIONS	undefined	/
+20221001	18:20:10	8515c94d-95d1-4895-8e91-b8ad62ac3916	GET	undefined	/
+20221001	18:20:26	6337642f-5c08-4673-a575-b252ed303df0	GET	undefined	/index.html
+20221001	18:21:10	907d4592-7cca-4405-982e-cdfa05b6c48c	GET	undefined	/index.html
+20221001	18:21:10	afd8a91b-5992-46e7-83d8-8f8ae7cb353a	GET	undefined	/css/style.css
+20221001	18:33:41	5214ac51-873c-4b35-b471-6fd9dedb7f15	GET	undefined	/index.html
+20221001	18:33:41	58668f46-2f14-49f9-887a-7d758ebf506c	Error: Not allowed by CORS
+    at origin (/home/kevinmbuimushan/Desktop/Nodejs/rediscovering-node-with-dave-gray/Rediscovering-Node/server.js:24:16)
+    at /home/kevinmbuimushan/Desktop/Nodejs/rediscovering-node-with-dave-gray/Rediscovering-Node/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/home/kevinmbuimushan/Desktop/Nodejs/rediscovering-node-with-dave-gray/Rediscovering-Node/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/home/kevinmbuimushan/Desktop/Nodejs/rediscovering-node-with-dave-gray/Rediscovering-Node/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/home/kevinmbuimushan/Desktop/Nodejs/rediscovering-node-with-dave-gray/Rediscovering-Node/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/kevinmbuimushan/Desktop/Nodejs/rediscovering-node-with-dave-gray/Rediscovering-Node/node_modules/express/lib/router/index.js:328:13)
+    at /home/kevinmbuimushan/Desktop/Nodejs/rediscovering-node-with-dave-gray/Rediscovering-Node/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/kevinmbuimushan/Desktop/Nodejs/rediscovering-node-with-dave-gray/Rediscovering-Node/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/kevinmbuimushan/Desktop/Nodejs/rediscovering-node-with-dave-gray/Rediscovering-Node/node_modules/express/lib/router/index.js:280:10)
+    at logger (/home/kevinmbuimushan/Desktop/Nodejs/rediscovering-node-with-dave-gray/Rediscovering-Node/middleware/logEvents.js:24:5) Not allowed by CORS
+20221001	18:34:41	2d3920cc-92a1-4366-a054-116eda85f89c	GET	undefined	/index.html
+20221001	18:34:41	d385c80d-e918-461b-b33d-8b73538f2c85	Error: Not allowed by CORS Not allowed by CORS
+20221001	18:35:32	02c6da45-cc39-4cef-a7c5-73575e3bc623	GET	undefined	/new-page.html
+20221001	18:35:32	74c7863c-1220-4df5-9f01-dac755261e2e	Error Not allowed by CORS
+20221001	18:36:33	f3462ba2-4ba5-44fd-bd8c-79621fa30604	GET	undefined	/index.html
+20221001	18:36:33	66a329f6-92f0-48df-a631-6277b96c31db	Error Not allowed by CORS
+20221001	18:36:34	8804a785-bc4d-4a8c-8505-adcbddfd8cca	GET	undefined	/index.html
+20221001	18:36:34	33d7c8f6-b3bb-4111-86c3-ca029c904b98	Error Not allowed by CORS
+20221001	18:37:01	4f1e5d46-770a-4217-a913-9b3c7407a4cf	GET	undefined	/index.html
+20221001	18:37:01	3a00722b-556d-40e6-88a5-18efe2618e86	GET	undefined	/css/style.css
