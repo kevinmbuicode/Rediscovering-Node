@@ -3,6 +3,7 @@ const path = require("path");
 const PORT = process.env.PORT || 3500;
 const app = express();
 const cors = require("cors");
+const corsOptions = require('./config/corsOptions');
 const { logger } = require("./middleware/logEvents");
 const errorHandler = require("./middleware/errorHandler");
 const router = require("./routes/subdir");
@@ -10,24 +11,7 @@ const router = require("./routes/subdir");
 // custom middleware
 app.use(logger);
 
-// cross origin resource sharing
-// whitelist for certain domains to access our server/backend
-const whitelist = [
-  "https://www.mushan.com",
-  "http://localhost:5500",
-  "http://localhost:3000",
-];
-const corsOptions = {
-  origin: (origin, callback) => {
-    if (whitelist.indexOf(origin) !== -1 || !origin) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
-  optionsSuccessStatus: 200,
-};
-
+// Cors
 app.use(cors(corsOptions));
 
 // built in middleware to handle query strings
