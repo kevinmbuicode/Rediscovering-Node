@@ -193,3 +193,17 @@
 20221003	14:42:01	3b491326-31cf-4738-ac3b-32d5fa9361ed	GET	undefined	/employees/1
 20221003	14:42:12	ca19bdf1-c72d-4a57-9ad8-c3028794919e	GET	undefined	/
 20221003	14:42:13	043b3662-5ff7-4bc0-8145-af9c30efd0eb	GET	undefined	/css/style.css
+20221003	14:45:33	2bc78db3-6b87-48b8-b9e4-b86ccd2d7387	GET	undefined	/employees
+20221003	15:30:47	920cb1fd-d132-46b3-90d3-ee1a70802b2b	POST	undefined	/employees
+20221003	15:32:42	18b17ae8-84e9-40b1-9f80-4302755ee572	PUT	undefined	/employees
+20221003	15:32:42	8050d111-f5a7-4746-bd9d-8580daae4009	SyntaxError Unexpected token f in JSON at position 10
+20221003	15:32:52	ccded8f1-018e-449b-afd9-3387839d15b0	PUT	undefined	/employees
+20221003	15:32:52	a37a0633-9eca-4a52-9076-b96b6f8a6d12	TypeError Cannot read properties of undefined (reading 'lastname')
+20221003	15:34:34	2e83dbce-e162-42d1-8bda-7ddd117dc05f	PUT	undefined	/employees
+20221003	15:34:34	bc043790-df32-4482-864a-4f5fa12cc423	TypeError Cannot read properties of undefined (reading 'lastname')
+20221003	15:35:07	17be8249-7901-4992-8175-c2ae439fe442	GET	undefined	/employees
+20221003	15:36:07	2e81fe5c-1a82-400b-92b2-1d3af296cd4d	PUT	undefined	/employees
+20221003	15:36:47	71c63b55-a0f4-458c-ab19-b7fda6c7b935	DELETE	undefined	/employees
+20221003	15:39:15	dab115e5-f935-4d86-b82d-0d82b9785ba7	GET	undefined	/employees/2
+20221003	15:39:41	15f3474e-aa36-4526-9063-b38fce147ecc	GET	undefined	/employees/2
+20221003	15:40:11	c4e718eb-8af6-459e-a7b4-cc45307b2464	GET	undefined	/employees/1
