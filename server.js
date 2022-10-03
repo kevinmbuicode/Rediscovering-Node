@@ -5,6 +5,7 @@ const app = express();
 const cors = require("cors");
 const { logger } = require("./middleware/logEvents");
 const errorHandler = require("./middleware/errorHandler");
+const router = require("./routes/subdir");
 
 // custom middleware
 app.use(logger);
@@ -36,21 +37,26 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 //serve static files
-app.use(express.static(path.join(__dirname, "/public")));
+app.use('/', express.static(path.join(__dirname, "/public")));
+app.use('/subdir', express.static(path.join(__dirname, "/public")));
 
-//
-app.get("^/$|/index(.html)?", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "index.html"));
-});
+//Routes
+app.use('/', require('./routes/root'))
+app.use("/subdir", require("./routes/subdir"))
 
-app.get("/new-page(.html)?", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "new-page.html"));
-});
 
-app.get("/old-page(.html)?", (req, res) => {
-  //Status code 301 means Moved Permanently. Browser redirects to the new URL and search engines update their links to the resource
-  res.redirect(301, "new-page.html");
-});
+// app.get("^/$|/index(.html)?", (req, res) => {
+//   res.sendFile(path.join(__dirname, "views", "index.html"));
+// });
+
+// app.get("/new-page(.html)?", (req, res) => {
+//   res.sendFile(path.join(__dirname, "views", "new-page.html"));
+// });
+
+// app.get("/old-page(.html)?", (req, res) => {
+//   //Status code 301 means Moved Permanently. Browser redirects to the new URL and search engines update their links to the resource
+//   res.redirect(301, "new-page.html");
+// });
 
 //Route handlers. Chaining
 const one = (req, res, next) => {

@@ -60,3 +60,44 @@
 20221001	18:36:34	33d7c8f6-b3bb-4111-86c3-ca029c904b98	Error Not allowed by CORS
 20221001	18:37:01	4f1e5d46-770a-4217-a913-9b3c7407a4cf	GET	undefined	/index.html
 20221001	18:37:01	3a00722b-556d-40e6-88a5-18efe2618e86	GET	undefined	/css/style.css
+20221001	19:27:17	06fefdc9-fd08-48d3-bce2-ee7496e70d9f	GET	undefined	/index.html
+20221001	19:27:17	e7918369-9bdb-4cb9-8690-60ea125ebe69	GET	undefined	/css/style.css
+20221001	19:27:30	cd4b5a36-3d9d-4634-ad7b-2c1c6f9bb6fd	GET	undefined	/subdir/index
+20221001	19:27:30	00b83be4-8e87-4d74-bf1f-f54b77330123	ReferenceError path is not defined
+20221001	19:27:44	9dcadf69-0307-425e-9a22-40613b94e2b2	GET	undefined	/subdir/index.html
+20221001	19:27:44	108d0335-29d5-4279-b6e9-edf6c14d7995	ReferenceError path is not defined
+20221001	19:29:42	7010daeb-1442-4400-bda0-d932c795a2e1	GET	undefined	/subdir/index.html
+20221001	19:30:01	f8a321b3-14d6-4755-8027-8ac2d5c94836	GET	undefined	/subdir/test.html
+20221001	19:30:01	860fe1f0-9dc0-4c03-95ac-a532e3ead737	GET	undefined	/subdir/css/style.css
+20221001	19:30:50	c9db990a-85de-4ad9-8ec3-969c0b219b00	GET	undefined	/subdir/test.html
+20221001	19:32:10	8dccc8d0-c91b-47c4-bd79-8edc4897d5ea	GET	undefined	/subdir/test.html
+20221001	19:46:25	50062860-0fea-49ca-bacc-bae44c5978ea	GET	undefined	/subdir/index.html
+20221001	19:46:57	912602ef-a2a0-4c81-808c-2cf7ad80a1af	GET	undefined	/subdir/index.html
+20221001	19:47:21	ee740704-5809-4a3f-9231-c5d95b3b8d2d	GET	undefined	/index.html
+20221001	19:47:21	964d88ba-278e-4191-9dd5-554a3fe7d897	GET	undefined	/css/style.css
+20221001	19:48:06	034a46a3-9c5b-4249-847c-3d89dd4bddd0	GET	undefined	/subdir/index.html
+20221001	19:48:12	e925dfae-01c3-46ce-b01b-3735b7381b08	GET	undefined	/subdir/index.html
+20221001	19:50:01	1125a6fa-a413-4fea-a7c7-dd4079e4770d	GET	undefined	/subdir/index.html
+20221001	19:50:07	a4d894f1-0179-4404-bc6a-306a62f12e8a	GET	undefined	/subdir/index
+20221001	19:51:02	51653316-f929-486f-97b8-851d8427bcf4	GET	undefined	/subdir/index
+20221001	19:52:27	c2843ac8-a431-4353-ab6c-7d6a3e19c925	GET	undefined	/index
+20221001	19:52:27	9d7c482c-4806-4848-b61a-845205ac1efa	GET	undefined	/css/style.css
+20221001	19:52:35	2efb9bb9-bf5b-4a6c-a5a3-3c7d2ee15e2d	GET	undefined	/subdir/index
+20221001	23:31:18	1e532ff6-803c-4daf-bda3-ed8800e0a41e	GET	undefined	/subdir/index
+20221001	23:31:18	80ec5421-e53c-4328-98eb-cdc313108ccb	Error ENOENT: no such file or directory, stat '/home/kevinmbuimushan/Desktop/Nodejs/rediscovering-node-with-dave-gray/Rediscovering-Node/routes/views/index.html'
+20221001	23:32:07	f7023d09-3aba-47aa-bac4-8439aaa25904	GET	undefined	/subdir/index
+20221001	23:32:07	96620f93-c43d-41b4-877e-79e623d8c21c	GET	undefined	/subdir/css/style.css
+20221001	23:33:16	7811240a-0e01-4b2a-86f5-782be4a5b001	GET	undefined	/subdir/test
+20221001	23:33:22	7035db43-a536-4f49-8d20-51d3102926c8	GET	undefined	/subdir/test.html
+20221001	23:33:31	e92d1c9a-c3dd-418b-bfd6-38d49e978a8a	GET	undefined	/subdir/index
+20221001	23:33:31	32a765bf-c5fb-4075-b015-af300cd8ec64	GET	undefined	/subdir/css/style.css
+20221001	23:35:57	c3e1eedb-d724-4936-a8a2-39e1a9fc433a	GET	undefined	/index
+20221001	23:35:57	84547b58-c7aa-4b3b-9299-14d4c5e6cf88	GET	undefined	/css/style.css
+20221001	23:36:14	7b5f801e-3b7d-4e5c-a7db-e3f33c467d1a	GET	undefined	/
+20221001	23:36:14	b038235c-aefe-4c33-a64b-6c42c788f0f4	GET	undefined	/css/style.css
+20221001	23:37:38	a8a93a84-2c30-4c91-865c-777f7b38f49f	GET	undefined	/new-page.html
+20221001	23:37:38	64018776-46c3-48a1-8f1a-7ae28f362954	GET	undefined	/css/style.css
+20221001	23:37:38	e5c78196-b537-484e-8e18-86141d88052e	GET	undefined	/img/img1.jpg
+20221001	23:38:11	4bc36c4f-76d1-43bc-b082-f3a83493c638	GET	undefined	/new-page.html
+20221001	23:38:11	d9eae2bd-9298-4f78-906a-b0e4290885d5	GET	undefined	/img/img1.jpg
+20221001	23:38:11	ab0a9251-fd2b-4c89-ac5c-ef8488c364aa	GET	undefined	/css/style.css
