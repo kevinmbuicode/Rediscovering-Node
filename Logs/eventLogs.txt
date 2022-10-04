@@ -225,3 +225,5 @@
 20221003	20:06:24	770168b9-1a8a-4b14-a27c-4af086215784	POST	undefined	/register
 20221003	20:08:26	137edc2d-d6cd-443b-aa8c-0e1240746148	POST	undefined	/register
 20221003	20:08:42	9dea92be-5964-472c-afb2-105896e054eb	POST	undefined	/register
+20221004	12:05:03	ec488138-40fb-46eb-abcc-7d06594671f5	POST	undefined	/employees
+20221004	12:13:27	ed72a9f0-eba6-4187-a054-fcd5e3785462	POST	undefined	/employees
