@@ -1,2 +1,2 @@
 # Rediscovering-Node
-A node practicing repository
+Node without docs or tutorials
